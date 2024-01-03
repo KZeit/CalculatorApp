@@ -1,0 +1,38 @@
+/* main.css */
+
+/* Calculator Grid */
+#calculatorGrid 
+{
+  
+}
+
+/* Display TextField */
+#calculatorDisplay 
+{
+    -fx-control-inner-background: #eeeeee; 
+    -fx-text-fill: #2C3E50; 
+    -fx-font-size: 2.5em; 
+    -fx-font-weight: bold; 
+    -fx-padding: 10px; 
+    -fx-alignment: CENTER_RIGHT; 
+    -fx-border-color: #004080;
+    -fx-border-width: 2px;
+}
+
+/* Calculator Buttons */
+.calculator-button 
+{
+    -fx-background-color: #004080; 
+    -fx-text-fill: white;
+    -fx-font-size: 1.5em; 
+    -fx-min-width: 80px; 
+    -fx-min-height: 80px;
+    -fx-padding: 10px; 
+}
+
+/* Hover effect for buttons */
+.calculator-button:hover 
+{
+    -fx-background-color: #0058b0; 
+    -fx-border-color: #2C3E50; 
+}
